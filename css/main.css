@@ -4,6 +4,7 @@ body * {
     padding: 0;
     vertical-align: top;
     box-sizing: border-box;
+    margin-top: 30px;
 }
 
 body {
@@ -20,7 +21,36 @@ body {
     width: 40%;
     float:left;
     padding: 40px;
-    background-color: aqua;
+    height: 600px;
+    background-color: #EDA700;
+    background-image: url(../img/Trees.png);
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main-title {
+    width:100%;
+    margin-bottom: 50px ;
+    font-size: 40px;
+    font-weight: normal;
+    font-style: oblique;
+}
+.main-paragraf {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 20px;
+}
+
+.main-title > img {
+    width: 30px;
+    height: 40px;
+
+}
+
+.left-column > img {
+    width: 100px;
+    margin-top: 80%;
 }
 
 .right-column {
