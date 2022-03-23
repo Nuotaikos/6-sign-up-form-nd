@@ -4,6 +4,7 @@ body * {
     padding: 0;
     vertical-align: top;
     box-sizing: border-box;
+    margin-top: 30px;
 }
 
 body {
@@ -20,7 +21,32 @@ body {
     width: 40%;
     float:left;
     padding: 40px;
-    background-color: aqua;
+    background-color: #EDA700;
+    height: 600px;
+    color: white;
+}
+.main-title {
+    display: inline-block;
+    width:100%;
+    font-size: 40px;
+    font-weight: normal;
+    font-style: oblique;
+}
+.main-paragraf {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 20px;
+}
+
+.main-title > img {
+    width: 30px;
+    height: 40px;
+
+}
+
+.left-column > img {
+    width: 100px;
+    margin-top: 80%;
 }
 
 .right-column {
