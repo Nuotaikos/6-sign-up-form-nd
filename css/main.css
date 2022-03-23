@@ -21,12 +21,15 @@ body {
     width: 40%;
     float:left;
     padding: 40px;
-    background-color: #EDA700;
     height: 600px;
+    background-color: #EDA700;
+    background-image: url(../img/Trees.png);
     color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .main-title {
-    display: inline-block;
     width:100%;
     font-size: 40px;
     font-weight: normal;
