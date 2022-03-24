@@ -59,3 +59,24 @@ body {
     padding: 60px;
     background-color: beige;
 }
+.close {
+
+}
+
+form {
+    display: inline-block;
+width: 100%;
+}
+
+.form > .form-row {
+    width: 100%;
+}
+.form > .form-row > .label {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.form > .form-row > .input {
+    width: 100%;
+}
