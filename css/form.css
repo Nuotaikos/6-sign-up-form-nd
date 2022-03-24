@@ -11,14 +11,35 @@ form {
     width: 100%;
     margin-top: 30px;
     margin-bottom: 20px;
-    background-color:red ;
 }
 .form > .form-row > .label {
     display: inline-block;
     width: 100%;
     margin-bottom: 5px;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #B7BAC7;
 }
 
 .form > .form-row > .input {
     width: 100%;
+    border: none;
+    border-bottom: 1px solid #EBEBEF;
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.form span {
+    line-height: 34px;
+    margin-left: 10px;
+}
+.form a {
+    color: #00C85B;
+    line-height: 34px; 
+    text-decoration: none; 
+}
+
+.form a:hover {
+    text-decoration: underline;
 }
