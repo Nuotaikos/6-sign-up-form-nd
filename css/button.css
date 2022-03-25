@@ -8,4 +8,8 @@
     border-color: #00C85B;
     background-color: #00C85B;
     color: white;
+    cursor: pointer;
+    }
+    .btn:hover {
+        background-color: #00c85af5;
     }
