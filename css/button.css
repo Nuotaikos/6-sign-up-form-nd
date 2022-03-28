@@ -1,14 +1,15 @@
 .btn {
-    font-size: 17px;
-    line-height: 20px;
-    padding: 5px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-radius: 5px;
-    border-color: #00C85B;
-    background-color: #00C85B;
-    color: white;
-    cursor: pointer;
+        font-size: 17px;
+        line-height: 20px;
+        padding: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 5px;
+        border-color: #00C85B;
+        background: #00C85B;
+        background: linear-gradient(90deg, #00C85B 0%, #00c99b 100%);
+        color: white;
+        cursor: pointer;
     }
     .btn:hover {
         background-color: #00c85a6e;
