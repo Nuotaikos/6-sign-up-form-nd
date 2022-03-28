@@ -43,6 +43,10 @@ form {
 .form a:hover {
     text-decoration: underline;
 }
-.form checkbox {
-    
+.lable.checkbox > span {
+     color: #00C85B;
+}
+
+.form checkbox  {
+
 }
