@@ -30,6 +30,9 @@ form {
     padding-top: 5px;
     padding-bottom: 5px;
 }
+.form > .form-row > .input:focus-visible {
+    outline: 1px solid red;
+}
 .form span {
     line-height: 34px;
     margin-left: 10px;
